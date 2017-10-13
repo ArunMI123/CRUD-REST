@@ -231,4 +231,25 @@
 		</plugins>
 
 	</build>
+	
+	
+	 <distributionManagement>
+ 
+
+
+
+
+  
+   <repository>
+    <id>test3</id>
+    <url>http://nexus-cicd.router.default.svc.cluster.local/content/repositories/test3</url>
+  </repository>
+    
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://nexus-cicd.router.default.svc.cluster.local/content/repositories/snapshots</url>
+  </snapshotRepository>
+
+
+</distributionManagement>
 </project>
